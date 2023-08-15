@@ -7,8 +7,9 @@ Este script Python automatiza a extração de dados CNPJ do site da Receita Fede
 
 - Python 3.x
 - Navegador Google Chrome
-- Chromedriver
+- Chromedriver Undetected
 - Arquivo CSV de entrada chamado `input.csv`
+- Pandas
 
 ## Instalação
 

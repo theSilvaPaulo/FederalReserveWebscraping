@@ -64,10 +64,10 @@ for cnpj_code in cnpj_list['CNPJs']:
     # clica em consultar
     driver.find_element(By.CSS_SELECTOR, "button.btn.btn-primary").click()
 
-    try:
+    try: #não encontrou resultado para o cnpj
         l= driver.find_element(By.CSS_SELECTOR, "div.alert.alert-danger")
         print("não achou")
-        row_dict = preenche_dict(cnpj_code)
+        row_dict = preenche_dict(cnpj_code) #preenche apenas o cnpj pois não encontrou resultado para o cnpj
         print(row_dict)
         append_to_csv(row_dict)
         driver.get("https://solucoes.receita.fazenda.gov.br/Servicos/cnpjreva/cnpjreva_solicitacao.asp")

@@ -5,7 +5,7 @@ Este script Python automatiza a extração de dados CNPJ do site da Receita Fede
 
 ## Pré-requisitos
 
--Python 3.x
+- Python 3.x
 - Navegador Google Chrome
 - Chromedriver
 - Arquivo CSV de entrada chamado `input.csv`
@@ -21,9 +21,14 @@ Este script Python automatiza a extração de dados CNPJ do site da Receita Fede
     ``` pip install undetected-chromedriver selenium beautifulsoup4 pandas
 
 ### Uso
-##### Adicionar CNPJs a input.csv.
+  Adicionar CNPJs a input.csv.
+  Rodar o código com o python3.
+  Preencher o captcha.
+  Aguardar.
+  Preencher o captcha.
+  Por fim, conferir o arquivo output.csv.
 
 ### Detalhes do script
-  NÃO resolve o desafio hCaptcha.
-  Insere CNPJ, extrai dados e salva em CSV.
-  Lida com casos em que nenhum dado é encontrado.
+  - NÃO resolve o desafio hCaptcha.
+  - Insere CNPJ, extrai dados e salva em CSV.
+  - Lida com casos em que nenhum dado é encontrado.

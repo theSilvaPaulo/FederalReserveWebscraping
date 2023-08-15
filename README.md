@@ -14,11 +14,10 @@ Este script Python automatiza a extração de dados CNPJ do site da Receita Fede
 
 1. Clone este repositório:
 
-    ```bash
     git clone https://github.com/your-username/cnpj-web-scraping.git
     cd cnpj-web-scraping```
 
-    ``` pip install undetected-chromedriver selenium beautifulsoup4 pandas
+2. pip install undetected-chromedriver selenium beautifulsoup4 pandas
 
 ### Uso
   Adicionar CNPJs a input.csv.
